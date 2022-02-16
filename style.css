@@ -1,0 +1,580 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: Muli; */
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .simular-saldo-fgts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-primeiro-simule-fgts {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .btn-priemiro-simule-fgts {
+        width: 80%;
+    }
+
+    .container-curiosidades-caixas {
+        flex-direction: column;
+    }
+
+    .container-curiosidade {
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 50px 20px !important;
+    }
+
+    .container-curiosidade.left {
+        margin-bottom: 120px;
+    }
+
+    header,
+    footer,
+    .full-largura {
+        width: 90% !important;
+    }
+
+    .titulo-fechando-com-a-gente {
+        text-align: center;
+    }
+
+    .container-vantagens {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-vantagem {
+        width: 80% !important;
+        margin: 5px 0;
+    }
+
+    .como-obter-responsive {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tutorial-como-obter {
+        width: 90% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .container-duvidas {
+        flex-direction: column;
+    }
+
+    .container-duvidas .duvidas {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .container-duvidas .duvidas.left {
+        margin-bottom: 0 !important;
+    }
+
+    .container-avaliacoes {
+        flex-direction: column;
+    }
+
+    .card-avaliacao {
+        width: 80% !important;
+        margin: 20px 0;
+    }
+
+    .container-o-que-dizem-sobre-nos {
+        width: 80% !important;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-o-que-dizem-sobre-nos span {
+        text-align: center !important;
+    }
+
+    .container-footer-detalhes {
+        flex-direction: column;
+    }
+
+    .full-largura-detalhes {
+        width: 90% !important;
+        align-items: center !important;
+    }
+
+    .full-largura-detalhes span {
+        text-align: center;
+    }
+
+    .full-largura-simular-wpp {
+        width: 90%!important;
+    }
+
+    .input-valor-fgts {
+        width: 100%!important;
+    }
+
+    .titulos-simular-wpp span {
+        text-align: center;
+    }
+
+    .titulos-simular-wpp {
+        margin-bottom: 20px;
+    }
+
+    .container-principal-introducao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-descricao-introducao {
+        width: 100%!important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-descricao-centralizar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center!important;
+        margin-top: 20px;
+    }
+
+    .container-descricao-centralizar span {
+        text-align: center;
+    }
+
+    .como-obter-list-response {
+        flex-direction: column;
+    }
+
+    .descricao-como-obter {
+        text-align: start;
+    }
+
+    .header-desktop {
+        display: none!important;
+    }
+
+    .header-mobile {
+        display: flex!important;
+        padding: 40px!important;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .title-curiosidade {
+        font-size: 18px!important;
+    }
+    .subtitle-curiosidade {
+        font-size: 14px!important;
+    }
+
+    .titulo-fechando-com-a-gente {
+        /* font-size: 20px!important; */
+    }
+
+    .titulo-primeiro-simule-fgts {
+        font-size: 20px!important;
+    }
+}
+
+.header-desktop {
+    display: flex;
+}
+
+.header-mobile {
+    display: none;
+}
+
+input {
+    background: transparent;
+}
+a {
+    text-decoration: none;
+}
+
+.full-largura-simular-wpp {
+    width: 60%;
+}
+
+.full-largura-detalhes {
+    width: 20%;
+}
+
+.container-footer-detalhes {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-o-que-dizem-sobre-nos {
+    width: 40%;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-duvidas .duvidas.right,
+.container-duvidas .duvidas.left {
+    margin-bottom: 30px;
+}
+
+.tutorial-como-obter {
+    height: 100%;
+    width: 50%;
+}
+
+.como-obter-responsive {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-fechando-com-a-gente {
+    color: #26beed;
+    font-size: 28px;
+}
+
+.full-largura {
+    width: 60%;
+}
+
+.container-curiosidades-caixas {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.main-container {
+    width: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    width: 60%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.img-logo {
+    width: 80px;
+    /* margin-top: -20px; */
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-li {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(55, 86, 163);
+    cursor: pointer;
+    transition: .3s;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.menu-nav:hover {
+    color: white;
+    background-color: #23406e;
+}
+
+.fale-conosco-nav {
+    background-color: #29c38b;
+    padding: 10px;
+    font-weight: 400;
+    color: white;
+    border-radius: 3px;
+}
+
+.container-apresentacao {
+    width: 100%;
+    /* height: 500px; */
+    background: #26beed;
+    background: linear-gradient(90deg, rgba(37, 191, 238, 1) 30%, rgba(4, 167, 245, 1) 50%, rgba(37, 191, 238, 1) 70%);
+    z-index: 2;
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.line {
+    width: 45px;
+    height: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.simular-saldo-fgts {
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-curiosidades {
+    margin-top: 10px;
+    padding-top: 100px;
+    /* height: 200px; */
+    width: 100%;
+    background-color: #f9f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-curiosidade {
+    width: 40%;
+    height: 50px;
+    padding: 20px;
+    padding-right: 50px;
+    border: 1px solid #26beed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.title-curiosidade {
+    color: #26beed;
+    font-size: 30px;
+}
+
+.subtitle-curiosidade {
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+}
+
+.container-vantagens {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.card-vantagem {
+    width: 20%;
+    height: 250px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.27); */
+    background-color: #ffffff;
+    border-radius: 1.5em;
+    padding: 20px 20px 0px 20px;
+    transition: .3s;
+}
+
+.card-vantagem span {
+    width: 80%;
+    text-align: center;
+}
+
+.card-vantagem:hover {
+    transform: scale(1.1);
+}
+
+.title-vantagem {
+    font-weight: bold;
+}
+
+.subtitle-vantagem {
+    color: rgb(70, 70, 70);
+}
+
+.container-como-obter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 470px; */
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.numeros-como-obter {
+    font-size: 50px;
+    color: #fcb813;
+    font-weight: bold;
+}
+
+.descricao-como-obter {
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+}
+
+.container-faq {
+    width: 70%;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-duvidas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duvidas {
+    width: 47%;
+    /* height: 300px; */
+    padding: 15px;
+}
+
+.duvidas.left {
+    /* background-color: red; */
+}
+
+.duvidas.right {
+    /* background-color: cornflowerblue; */
+}
+
+.card-duvida-frequente {
+    border: 1px solid rgba(47, 47, 47, 0.19);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 17px 0;
+    box-sizing: border-box;
+}
+
+.title-duvida {
+    font-size: 16px;
+    color: #187896;
+}
+
+.container-avaliacoes {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #35353528;
+}
+
+.card-avaliacao {
+    width: 25%;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.circle-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+.circle-image.man {
+    background-image: url("https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528");
+}
+
+.circle-image.woman {
+    background-image: url("https://media.istockphoto.com/photos/beauty-portrait-of-young-woman-picture-id1309405076?b=1&k=20&m=1309405076&s=170667a&w=0&h=28jfs2oOeQfL65kzGPVoPS8xxFJWK1h7LEkTSWKY-lM=");
+}
+
+.paragrafo-avaliacao {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    /* text-indent: initial; */
+}
+
+.simular-saldo-fgts.contato-wpp {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    background-color: #26beed;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 10px;
+    transform: translate(0, -50%);
+}
+
+.coluna-footer {
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-size: 22px;
+    color: #23406e;
+}
+
+.footer-item-list {
+    color: #444444c7;
+    margin: 10px 0;
+}
